@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: #2F2E41;
+}
+.container{
+    max-width: 1170px;
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+header {
+    height: 80px;
+}
+
+header,
+footer {
+    background-color: #6C63FF;
+}
+
+.flex-header-wrapper{
+    display: flex;
+ 
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+
+
+.login_btn {
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    padding: 10px 38px;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.main {
+    padding: 100px 0;
+
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 44px;
+    text-align: center;
+
+    text-transform: uppercase;
+    margin-bottom: 70px;
+
+}
+.flex-cart-wrapper{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+ 
+
+}
+
+.card {
+    background-color: #FFFFFF;
+    border: 2px solid #E7E7E7;
+    border-radius: 5px;
+    padding: 46px 20px;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.card_title {
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.card_image {
+    height: 200px;
+    margin: 40px 0 36px;
+}
+
+.card_txt {
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+footer ul {
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+footer a {
+    padding: 10px 15px;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.icon {
+    margin-right: 10px;
+}
+@media screen and (max-width: 767px) {
+    .main{
+        padding: 46px 0 50px;
+    }
+    h1{
+        font-size: 36px;
+    }
+}
+@media screen and (max-width: 576px) {
+ .logo_img {
+    width: 160px;
+    h1{
+        font-size: 28px;
+    }
+ }   
+}
